@@ -1,7 +1,18 @@
+
 #pragma once
 #include <iostream>
 #include <sstream>
 using namespace std;
+
+//Represents a person record in the People Database.
+//Stores four string-based fields:
+//- id:	unique identifier (default "-1")
+//- name:	person's name (default "na")
+//- age:	person's age as text (default "0")
+//- info:	additional details (default "none")
+
+//Includes a convenience constructor with defaults and an overloaded
+//operator<< to print the record in a readable format.
 
 struct Person
 {
